@@ -13,7 +13,7 @@ description: >-
 
 ### General Idea & Basics
 
-![image source: https://medium.com/@gagansuneja](.gitbook/assets/image.png)
+![image source: https://medium.com/@gagansuneja](../.gitbook/assets/image.png)
 
 
 

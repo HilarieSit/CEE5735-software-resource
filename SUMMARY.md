@@ -27,9 +27,7 @@
 
 ## Version Control \(Git\) <a id="version-control"></a>
 
----
-
-* [Getting started](getting-started-git.md)
-* [GitHub](github.md)
-* [Directory Organization](organization.md)
+* [Getting started](version-control/getting-started-git.md)
+* [GitHub](version-control/github.md)
+* [Directory Organization](version-control/organization.md)
 
