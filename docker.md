@@ -1,8 +1,8 @@
 ---
 description: >-
-  FEniCS is an open-source PDE solver that can be called using Python or C++.
-  Here is how you can use FEniCS on the different OS (more details can be found
-  at https://fenicsproject.org/download/):
+  FEniCS is a finite element solver for PDEs that can be called using Python or
+  C++. Here is how you can use FEniCS on the different OS (more details at
+  https://fenicsproject.org/download/):
 ---
 
 # Getting started

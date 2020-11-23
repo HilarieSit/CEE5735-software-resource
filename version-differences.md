@@ -1,19 +1,23 @@
 ---
 description: >-
-  Depending how you installed FEniCS, the version may be different and some of
-  library functions may be different from the tutorial linked on the Canvas
-  site.
+  There are several FEniCS versions, which can have function names that differ
+  from the tutorial linked on the Canvas site. Please check out the correct
+  software documentation for your version.
 ---
 
-# Version differences
+# Tutorial
 
-To check which version of FEniCS you are using:
+{% embed url="https://fenicsproject.org/tutorial/" %}
+
+### Software Documentation:
+
+To check your version of FEniCS:
 
 ```text
 dolfin-version
 ```
 
-This will return a number, which you can use to access the proper tutorial:
+Using the version number, you can find the correct documentation here:
 
 {% embed url="https://fenicsproject.org/docs/dolfin/" %}
 

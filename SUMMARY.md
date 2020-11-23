@@ -13,19 +13,25 @@
   * [Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Running%20Code.html)
 * [Anaconda with zsh](anaconda/zsh.md)
 
-## FEniCS
+## Finite Element \(FEniCS\) <a id="fenics"></a>
 
 ---
 
 * [Getting started](docker.md)
-* [Tutorial](https://fenicsproject.org/tutorial/)
-* [Version differences](version-differences.md)
+* [Tutorial](version-differences.md)
 
-## General <a id="final-project"></a>
+## Black Box \(ML libraries\) <a id="machine-learning-libraries"></a>
+
+* [Tensorflow & Keras](machine-learning-libraries/tensorflow-and-keras.md)
+* [Pytorch](machine-learning-libraries/pytorch.md)
+* [Scikit-learn](machine-learning-libraries/scikit-learn.md)
+* [GPU acceleration](https://medium.com/@hs764/getting-started-with-gpu-computing-for-machine-learning-fb2f9b6cfda0)
+
+## Version Control \(Git\) <a id="version-control"></a>
 
 ---
 
-* [Git](version-control/README.md)
-  * [Installation](https://github.com/git-guides/install-git)
-  * [Directory Organization](version-control/organization.md)
+* [Getting started](getting-started-git.md)
+* [GitHub](github.md)
+* [Directory Organization](organization.md)
 
