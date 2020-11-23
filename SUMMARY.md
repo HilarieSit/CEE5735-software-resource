@@ -15,10 +15,8 @@
 
 ## Finite Element \(FEniCS\) <a id="fenics"></a>
 
----
-
-* [Getting started](docker.md)
-* [Tutorial](version-differences.md)
+* [Getting started](fenics/docker.md)
+* [Tutorial](fenics/version-differences.md)
 
 ## Black Box \(ML libraries\) <a id="machine-learning-libraries"></a>
 

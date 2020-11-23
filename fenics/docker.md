@@ -47,7 +47,7 @@ docker exec -ti -u fenics fenics-container /bin/bash -l
 
 This is what you can expect on your terminal. Notice that the _shared_ directory in the container shares the same files as your local directory. 
 
-![](.gitbook/assets/screen-shot-2020-11-19-at-12.47.14-pm.png)
+![](../.gitbook/assets/screen-shot-2020-11-19-at-12.47.14-pm.png)
 
 Run your python scripts normally using _python3_. When you are finished, first exit the container using _exit,_ then stop the Docker container:
 
