@@ -1,8 +1,8 @@
 ---
 description: >-
-  FEniCS is a finite element solver for PDEs that can be called using Python or
-  C++. Here is how you can use FEniCS on the different OS (more details at
-  https://fenicsproject.org/download/):
+  FEniCS is a finite element solver for PDEs that can be used with Python or
+  C++. Here is how you can install FEniCS on different operating systems (more
+  details at https://fenicsproject.org/download/):
 ---
 
 # Getting started
@@ -11,7 +11,7 @@ description: >-
 
 #### Using Anaconda \(Recommended\)
 
-The easiest way to use FEniCS is by creating and activating a conda environment with the FEniCS package:
+The easiest way to use FEniCS is by creating and activating a conda environment containing the FEniCS package:
 
 ```text
 conda create -n fenicsproject -c conda-forge fenics
@@ -20,9 +20,9 @@ source activate fenicsproject
 
 #### Using Docker
 
-Another way is to use a FEniCS Docker container. Please note that there are additional steps if you wish to use Jupyter Notebook inside a Docker container. 
+Another way is to download the FEniCS Docker image and set up a Docker container. Please note that there are additional steps if you wish to use Jupyter Notebook inside a Docker container. 
 
-Installing Docker is very straightforward on MacOS:
+Installing Docker is pretty straightforward on MacOS:
 
 {% embed url="https://docs.docker.com/docker-for-mac/install/" %}
 
@@ -63,7 +63,7 @@ Docker for Windows requires Windows 10 [Pro/Enterprise/Education ](https://docs.
 
 #### **Using Ubuntu \(Recommended\)**
 
-There are many ways to use Ubuntu on a Windows PC \(Virtual Machine, Dual Booting, Cloud, etc.\). If you don't have a preference, I would recommend setting up an Ubuntu virtual machine. 
+There are many ways to use Ubuntu on a Windows PC \(via virtual machine, dual booting, cloud, etc.\). If you don't have a preference, I would recommend setting up an Ubuntu virtual machine. 
 
 First install Virtualbox:
 
@@ -87,6 +87,6 @@ sudo apt-get install --no-install-recommends fenics
 ```
 
 {% hint style="warning" %}
-If step 4 fails, try running lines 3 and 4 again.
+If line 4 fails, try running lines 3 and 4 again.
 {% endhint %}
 

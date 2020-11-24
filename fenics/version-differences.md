@@ -1,11 +1,13 @@
 ---
 description: >-
-  There are several FEniCS versions, which can have function names that differ
-  from the tutorial linked on the Canvas site. Please check out the correct
+  There are several versions of FEniCS, and the functions/syntax can differ from
+  the book tutorial linked on the Canvas site. Please check out the correct
   software documentation for your version.
 ---
 
-# Tutorial
+# Tutorial & documentation
+
+### Book:
 
 {% embed url="https://fenicsproject.org/tutorial/" %}
 

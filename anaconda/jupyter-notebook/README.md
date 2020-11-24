@@ -9,7 +9,7 @@ description: >-
 
 ### Starting Jupyter Notebook
 
-Jupyter Notebook is one of the default applications on the Navigator home tab. Another way is to open it with Terminal; make sure that you are in the correct directory and then use the following command:
+Jupyter Notebook is one of the default applications on the Navigator homepage. Another way is to open Jupyter Notebook is by using Terminal; make sure that you are in the correct directory and then use the following command:
 
 ```bash
 $ jupyter notebook
@@ -25,7 +25,7 @@ Navigate into your desired directory and then select _Python 3_ under _New_ to c
 
 ### Understanding Cells
 
-Within a coding **cell**, you can write snippets of code. When you run a cell, the code is sent to a **kernel** that executes it. Variables can be called/used from previously ran cells.
+Within a _**coding cell**_, you can write snippets of code. When you run a cell, the code is sent to a _**kernel**_ that executes it. Variables can be called or used from previously ran cells.
 
 ![](../../.gitbook/assets/screen-shot-2020-09-28-at-11.27.19-pm%20%281%29.png)
 
@@ -37,15 +37,23 @@ To run a cell, you can either click on the _Run_ button or use Ctrl/Command - En
 Be careful about the order. Cells can be executed out of order or moved around and variables can be overwritten.
 {% endhint %}
 
-The Markdown cells allow you to add documentation to your code. Headings can be created using hashtags: \# Heading 1, \#\# Heading 2.
+_**Markdown cells**_ allow you to add documentation to your code. Headings can be created using hashtags: \# Heading 1, \#\# Heading 2.
 
 ![](../../.gitbook/assets/screen-shot-2020-09-28-at-11.38.43-pm.png)
 
+To run the markdown cell, click _Run_ or use Ctrl/Command - Enter.
+
 ### Stopping Jupyter Notebook
 
-To shutdown a running notebook, select the box and click _Shutdown._
+To shutdown a running notebook, exit the notebook, select the appropriate box from the directory, and click _Shutdown._
 
 ![](../../.gitbook/assets/screen-shot-2020-09-29-at-11.23.48-am.png)
 
 To exit Jupyter Notebook, click _Quit_ on the upper left corner or use Ctrl/Command - C in the Terminal.
+
+### Limitations
+
+There are times when coding with an IDE or text editor is preferable over using Jupyter Notebook. Here is a fun video about several limitations of Jupyter Notebook:
+
+{% embed url="https://www.youtube.com/watch?v=7jiPeIFXb6U" %}
 

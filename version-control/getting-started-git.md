@@ -1,8 +1,8 @@
 ---
 description: >-
   Git is a popular version control system that allows you to save and access
-  snapshots (histories) of files. Git is beneficial for collaborative coding or
-  for testing multiple versions of code.
+  snapshots (histories) of files. Git is great for collaborative coding or for
+  testing multiple versions of code.
 ---
 
 # Getting started
