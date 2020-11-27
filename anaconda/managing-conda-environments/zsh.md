@@ -4,7 +4,7 @@ description: >-
   your OS shell is zsh. Here are some solutions:
 ---
 
-# Anaconda with zsh
+# Problems with zsh shell
 
 ### 1. Append path to .zsh
 

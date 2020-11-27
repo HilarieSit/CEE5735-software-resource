@@ -9,7 +9,7 @@
   * [Using Navigator](anaconda/managing-conda-environments/using-navigator/README.md)
     * [Navigator Docs](https://docs.anaconda.com/anaconda/navigator/)
   * [Using Terminal](anaconda/managing-conda-environments/using-terminal.md)
-  * [Anaconda with zsh](anaconda/managing-conda-environments/zsh.md)
+  * [Problems with zsh shell](anaconda/managing-conda-environments/zsh.md)
 * [Jupyter Notebook](anaconda/jupyter-notebook/README.md)
   * [Jupyter Notebook Docs](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Running%20Code.html)
 
@@ -20,7 +20,7 @@
 
 ## Black Box \(ML libraries\) <a id="machine-learning-libraries"></a>
 
-* [Tensorflow & Keras](machine-learning-libraries/tensorflow-and-keras.md)
+* [Tensorflow](machine-learning-libraries/tensorflow-and-keras.md)
 * [Pytorch](machine-learning-libraries/pytorch.md)
 * [Scikit-learn](machine-learning-libraries/scikit-learn.md)
 * [GPU acceleration](https://medium.com/@hs764/getting-started-with-gpu-computing-for-machine-learning-fb2f9b6cfda0)

@@ -1,7 +1,3 @@
----
-description: GitHub is an interface for git
----
-
 # GitHub
 
 ### Remote Repositories: GitHub

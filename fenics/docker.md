@@ -7,6 +7,12 @@ description: >-
 
 # Getting started
 
+## On this page:
+
+1. [Linux/MacOS](docker.md#linux-mac)
+2. [Windows](docker.md#windows)
+3. [Ubuntu](docker.md#ubuntu)
+
 ## Linux/Mac
 
 #### Using Anaconda \(Recommended\)
@@ -55,6 +61,8 @@ Run your python scripts normally using _python3_. When you are finished, first e
 docker stop fenics-container
 ```
 
+[Top of Page --&gt; ](docker.md#on-this-page)
+
 ## Windows
 
 #### **Using Docker**
@@ -75,6 +83,8 @@ Then follow these instructions to set up a Ubuntu virtual machine:
 
 Finally, install FEniCS on the Ubuntu VM using the instructions in the Ubuntu section. 
 
+[Top of Page --&gt; ](docker.md#on-this-page)
+
 ## Ubuntu
 
 Install FEniCS by running this on the terminal:
@@ -89,4 +99,6 @@ sudo apt-get install --no-install-recommends fenics
 {% hint style="warning" %}
 If line 4 fails, try running lines 3 and 4 again.
 {% endhint %}
+
+[Top of Page --&gt; ](docker.md#on-this-page)
 
