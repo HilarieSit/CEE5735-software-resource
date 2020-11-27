@@ -10,18 +10,18 @@ description: >-
 
 An environment is a directory containing installed packages. Having separate environments allows us to compartmentalize projects and manage package dependencies.
 
-### Packages/libraries for this class
+### Packages & libraries for this class
 
-* Numpy
-* Matplotlib
-* scikit-learn
-* Keras
-* FEniCS
-* TBD
+* [Numpy](https://numpy.org/doc/)
+* [Matplotlib](https://matplotlib.org)
+* [FEniCS](../../fenics/docker.md) 
+* [Tensorflow/Keras](../../machine-learning-libraries/tensorflow-and-keras.md)
+* [Pytorch](../../machine-learning-libraries/pytorch.md)
+* [Scikit-learn](../../machine-learning-libraries/scikit-learn.md)
 
 ### Managing environments
 
-There are a few ways to use conda to manage environments. The simplest is to use the GUI \(Anaconda Navigator\) that comes with your Anaconda installation. If you are comfortable with command lines, then you can directly use terminal.
+There are several ways to use conda to manage environments. The simplest is to use the GUI \(Anaconda Navigator\) that comes with your Anaconda installation. If you are more comfortable with command lines, you can directly use terminal, which is a lot faster.
 
 {% page-ref page="using-navigator/" %}
 

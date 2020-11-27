@@ -2,7 +2,7 @@
 description: >-
   Alternatively, conda environments can managed using Terminal. In fact,
   everything on the GUI can be done with command lines. If you don't feel
-  comfortable with this, please use Anaconda Navigator.
+  comfortable with this, you can use Anaconda Navigator.
 ---
 
 # Using Terminal
@@ -16,7 +16,7 @@ $ conda create -name project1 python=3.7
 ```
 
 {% hint style="warning" %}
-If you are on MacOS and using the zsh shell, you may have problems using conda. [Using Anaconda with zsh -&gt;](../zsh.md)
+If you are on MacOS and using the zsh shell, you may have problems using conda. [Using Anaconda with zsh -&gt;](zsh.md)
 {% endhint %}
 
 An environment is activated by calling `conda activate` with its name. Any scripts we run while the environment is activated will use the packages & versions installed within that environment. 
@@ -44,7 +44,7 @@ $ conda remove tensorflow
 
 ### Deactivating Environment
 
-To deactivate the conda environment, use `conda deactivate`. You can manage packages in deactivated environment by specifying the environment name with the commands. [More info -&gt;](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#updating-packages)
+To deactivate the conda environment, use `conda deactivate`. Note that you do not need to activate the environment to manage packages: if an environment is deactivated, you can specify the environment name with the commands. [More info -&gt;](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#updating-packages)
 
 ```text
 $ conda deactivate
