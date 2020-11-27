@@ -23,7 +23,7 @@ An environment is a directory containing installed packages. Having separate env
 
 There are several ways to use conda to manage environments. The simplest is to use the GUI \(Anaconda Navigator\) that comes with your Anaconda installation. If you are more comfortable with command lines, you can directly use terminal, which is a lot faster.
 
-{% page-ref page="using-navigator/" %}
+{% page-ref page="using-navigator.md" %}
 
 {% page-ref page="using-terminal.md" %}
 
