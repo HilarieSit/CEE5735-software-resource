@@ -5,7 +5,7 @@ description: >-
   software documentation for your version.
 ---
 
-# Tutorial & documentation
+# Tutorial & Documentation
 
 ### Book:
 

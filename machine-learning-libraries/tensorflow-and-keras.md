@@ -1,8 +1,8 @@
 ---
 description: >-
-  Tensorflow is a popular machine learning framework developed by Google that
-  makes implementing optimized deep learning models very simple. Popular
-  high-level APIs include Keras and TF Probability.
+  Tensorflow is a popular ML framework developed by Google that makes
+  implementing optimized deep learning models very simple. Popular high-level
+  APIs include Keras and TF Probability.
 ---
 
 # Tensorflow
@@ -39,25 +39,25 @@ In addition to the graph, we also need to specify the training method and any fu
 
 Finally, to perform the computation, we start a TF session _****_and feed the placeholders with our dataset. 
 
+{% embed url="https://www.tensorflow.org/versions/r1.15/api\_docs" %}
+
 ### Tensorflow 2.x \(Eager Execution\)
 
-With TF 2.x, there are no longer TF "sessions" and everything is executed eagerly:
+With TF 2.x, there are no longer TF "sessions" and everything is executed eagerly.
 
 {% embed url="https://www.tensorflow.org/api\_docs" %}
 
 ### TensorBoard \(Visualization Tool\)
 
-Tensorboard is Tensorflow's visualization tool for viewing computational graphs, tracking variables & performance metrics, etc. To launch the tensorboard dashboard, run this on terminal and point the --logdir to the appropriate directory:
+Tensorboard is Tensorflow's visualization tool for viewing computational graphs, tracking variables & performance metrics, etc. Installation of Tensorflow includes TensorBoard. To launch the dashboard, run this on terminal and point the --logdir to the appropriate directory.
 
 ```text
 tensorboard --logdir=summaries
 ```
 
-The link shown \(default: localhost:8888\) will open a web browser with the dashboard:
+Open the link shown on the terminal \(default: localhost:8888\) on a web browser.
 
 ![TensorBoard dashboard](../.gitbook/assets/screen-shot-2020-11-27-at-12.57.06-pm%20%281%29.png)
-
-Information and guides for using TensorBoard can be found here:
 
 {% embed url="https://www.tensorflow.org/tensorboard/get\_started" %}
 
@@ -66,6 +66,8 @@ Information and guides for using TensorBoard can be found here:
 Keras is a popular high-level API for building deep neural networks using prebuilt layers \(_i.e._ dense layers, convolutional layers, batch normalization layers, etc.\). Keras is great for quickly building regular models, but can't accommodate custom operations like in Tensorflow/Pytorch.
 
 {% embed url="https://keras.io" %}
+
+Another benefit of Keras is the abundance of [pre-trained model architectures](https://keras.io/api/applications/) that are available for transfer learning.
 
 ## Tensorflow Probability
 

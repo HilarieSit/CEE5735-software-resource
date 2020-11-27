@@ -1,7 +1,8 @@
 ---
 description: >-
-  Pytorch is another popular ML framework developed by Facebook. Unlike
-  Tensorflow, Pytorch utilizes dynamic computational graphs.
+  Pytorch is a popular ML framework developed by Facebook. A key difference is
+  its use of dynamic computational graphs, which is beneficial for changing
+  input sizes in NLP, computer vision, etc.
 ---
 
 # Pytorch
