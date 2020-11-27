@@ -4,7 +4,7 @@ description: >-
   your OS shell is zsh. Here are some solutions:
 ---
 
-# Problems with zsh shell
+# Issues using zsh shell
 
 ### 1. Append path to .zsh
 
@@ -35,7 +35,7 @@ $ chsh -s /bin/zsh
 
 ### Go back to previous page:
 
-{% page-ref page="using-navigator/" %}
+{% page-ref page="using-navigator.md" %}
 
 {% page-ref page="using-terminal.md" %}
 

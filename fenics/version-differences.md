@@ -5,13 +5,13 @@ description: >-
   software documentation for your version.
 ---
 
-# Tutorial & Documentation
+# Tutorial
 
-### Book:
+### Book
 
 {% embed url="https://fenicsproject.org/tutorial/" %}
 
-### Software Documentation:
+### Software Documentation
 
 To check your version of FEniCS:
 

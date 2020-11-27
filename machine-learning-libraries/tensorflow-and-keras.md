@@ -22,9 +22,11 @@ Tensorflow \(TF\) is a powerful ML framework that lets us develop and train mode
 
 ### Tensorflow 1.x
 
+{% embed url="https://www.tensorflow.org/versions/r1.15/api\_docs" %}
+
 In TF 1.x, the _**computational**_ _**graph**_, which maps out operation order and dependencies, is specified first, before any computations occur. This type of graph is commonly called a _**static graph**_ since it doesn't change during a _**session**_, which is when the graph is executed and values are computed. 
 
-![Tensorflow graph visualized using Tensorboard](../.gitbook/assets/image%20%281%29.png)
+![Tensorflow graph visualized using Tensorboard](../.gitbook/assets/image%20%282%29.png)
 
 A TF computational graph is specified using a combination of these objects and operations: 
 
@@ -39,15 +41,15 @@ In addition to the graph, we also need to specify the training method and any fu
 
 Finally, to perform the computation, we start a TF session _****_and feed the placeholders with our dataset. 
 
-{% embed url="https://www.tensorflow.org/versions/r1.15/api\_docs" %}
-
 ### Tensorflow 2.x \(Eager Execution\)
-
-With TF 2.x, there are no longer TF "sessions" and everything is executed eagerly.
 
 {% embed url="https://www.tensorflow.org/api\_docs" %}
 
+With TF 2.x, there are no longer TF "sessions" and everything is executed eagerly.
+
 ### TensorBoard \(Visualization Tool\)
+
+{% embed url="https://www.tensorflow.org/tensorboard/get\_started" %}
 
 Tensorboard is Tensorflow's visualization tool for viewing computational graphs, tracking variables & performance metrics, etc. Installation of Tensorflow includes TensorBoard. To launch the dashboard, run this on terminal and point the --logdir to the appropriate directory.
 
@@ -59,19 +61,17 @@ Open the link shown on the terminal \(default: localhost:8888\) on a web browser
 
 ![TensorBoard dashboard](../.gitbook/assets/screen-shot-2020-11-27-at-12.57.06-pm%20%281%29.png)
 
-{% embed url="https://www.tensorflow.org/tensorboard/get\_started" %}
-
 ## Keras
 
-Keras is a popular high-level API for building deep neural networks using prebuilt layers \(_i.e._ dense layers, convolutional layers, batch normalization layers, etc.\). Keras is great for quickly building regular models, but can't accommodate custom operations like in Tensorflow/Pytorch.
-
 {% embed url="https://keras.io" %}
+
+Keras is a popular high-level API for building deep neural networks using prebuilt layers \(_i.e._ dense layers, convolutional layers, batch normalization layers, etc.\). Keras is great for quickly building regular models, but can't accommodate custom operations like in Tensorflow/Pytorch.
 
 Another benefit of Keras is the abundance of [pre-trained model architectures](https://keras.io/api/applications/) that are available for transfer learning.
 
 ## Tensorflow Probability
 
-Tensorflow Probability is a library for probabilistic deep learning models and includes useful tools for Variational Inference, Bayesian Neural Networks, MCMC, etc.
-
 {% embed url="https://www.tensorflow.org/probability" %}
+
+Tensorflow Probability is a library for probabilistic deep learning models and includes useful tools for Variational Inference, Bayesian Neural Networks, MCMC, etc.
 

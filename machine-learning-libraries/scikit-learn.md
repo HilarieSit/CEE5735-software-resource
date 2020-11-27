@@ -7,7 +7,7 @@ description: >-
 
 # Scikit-learn
 
-The scikit-learn library includes many useful functions for processing datasets, including cross-validation, spliting datasets for training and testing, etc.
-
 {% embed url="https://scikit-learn.org" %}
+
+The scikit-learn library includes many useful functions for processing datasets, including cross-validation, spliting datasets for training and testing, etc.
 
